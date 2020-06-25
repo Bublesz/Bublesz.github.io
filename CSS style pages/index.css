@@ -1,0 +1,16 @@
+@font-face {
+    font-family:'friz' ;
+    src: url("/fonts/FrizQuadrataTT.ttf");
+}
+
+body {
+    background-color: darkgrey;
+    font-family: "friz";
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+    font-size: 10px;
+}

@@ -1,0 +1,19 @@
+body {
+      background-color: darkgrey;
+      color: black;
+      font-family: Arial, sans-serif;
+      margin: 10px 10px 10px 10px;
+}
+
+summary {
+         font-size: 20px;
+}
+
+#menu-p {
+         border: solid 1px 1px 1px 1px;
+}
+
+footer {
+    text-align: left;
+    font-size: 10px;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial;
+    margin: 10px 10px 10px 10px;
+}
+.story-p {
+    font-size: 25px;
+}
+
+footer {
+    text-align: right;
+    font-size: 10px;
+}
+

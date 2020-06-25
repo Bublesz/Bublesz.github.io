@@ -1,0 +1,14 @@
+body {
+    background-color: darkgrey;
+    font-family: Arial, sans-serif;
+    margin: 10px 10px 10px 10px;
+}
+
+summary {
+    font-size: 20px;
+}
+
+footer {
+    text-align: right;
+    font-size: 10px;
+}
