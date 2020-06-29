@@ -14,4 +14,5 @@ Changes:
  + Readme file updated
  + etlap.html --> renamed to menu.html
  + index. html text language changed to english
- + style pages created
+ + style pages createdű
+ + navbar added

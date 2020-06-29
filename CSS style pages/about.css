@@ -1,8 +1,39 @@
+@font-face {
+    font-family:'friz' ;
+    src: url("/fonts/FrizQuadrataTT.ttf");
+}
 body {
     background-color: darkgrey;
     font-family: Arial, sans-serif;
     margin: 10px 10px 10px 10px;
 }
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:lightblue;
+    font-family: "friz";
+  }
+  ul.navbar li {
+    float: left;
+  }
+  ul.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul.navbar li a:hover {
+    background-color: whitesmoke;
+  }
+  ul.navbar li a:active {
+    background-color: #4CAF50;
+  }
 
 summary {
     font-size: 20px;

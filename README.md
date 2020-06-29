@@ -9,5 +9,8 @@ Version history in progress
 
 -Format all the text
 -Make a table for the menu
+-Finish the sidebar for the menu
+-Create login page
+-Create order page
 
 ################
