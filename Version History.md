@@ -16,3 +16,5 @@ Changes:
  + index. html text language changed to english
  + style pages createdű
  + navbar added
+ + menu sidebar with menu pages added
+ + navbar and sidebar updated with bootstraps

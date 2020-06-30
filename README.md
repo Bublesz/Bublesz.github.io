@@ -8,9 +8,12 @@ Version history in progress
 ## To do list ##
 
 -Format all the text
--Make a table for the menu
--Finish the sidebar for the menu
 -Create login page
 -Create order page
+-Fill up the menu
+-Get proper colors on page
+-Version number tracker on page
+-Sidebar for store locations
+-Move the opening hours and contact info to the right sidebar on all page
 
 ################

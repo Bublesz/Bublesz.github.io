@@ -1,11 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalimdor burger</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    ezek a kalimdor burgerek
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top flex-row-reverse">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Story</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            
+            <div class="col-2"><br>
+                <!-- Nav pills -->
+                <ul class="nav flex-column nav-pills justify-content-center text-center" role="tablist">
+                    <label for="ul">
+                        <h2>Quick Menu</h2>
+                    </label>
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home">Eastern Kingdoms Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu1">Kalimdor Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Outland Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Northend Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Pandaria Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Draenor Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Broken Island Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Argus Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Zandalar Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Kul Tiran Burgers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2">Shadowlands Burgers</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-8">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active"><br>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <label for="table">
+                                    <h1>Eastern Kingdoms Burgers</h1>
+                                </label>
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Burger Name</th>
+                                        <th>Ingridients</th>
+                                        <th>Picture</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Murloc Burger</td>
+                                        <td>Fresh murloc meat, stromwind bread, darnassian cheese</td>
+                                        <td><img width="100px" class="rounded" src="/img/freshmurloc.jpg"
+                                                alt="fresh murloc">
+                                        </td>
+                                        <td>1g50s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Murloc Burger</td>
+                                        <td>Fresh murloc meat, stromwind bread, darnassian cheese</td>
+                                        <td><img width="100px" src="/img/freshmurloc.jpg" alt="fresh murloc"></td>
+                                        <td>1g50s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Murloc Burger</td>
+                                        <td>Fresh murloc meat, stromwind bread, darnassian cheese</td>
+                                        <td><img width="100px" src="/img/freshmurloc.jpg" alt="fresh murloc"></td>
+                                        <td>1g50s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01</td>
+                                        <td>Murloc Burger</td>
+                                        <td>Fresh murloc meat, stromwind bread, darnassian cheese</td>
+                                        <td><img width="100px" src="/img/freshmurloc.jpg" alt="fresh murloc"></td>
+                                        <td>1g50s</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="menu1" class="container tab-pane fade"><br>
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo
+                            consequat.</p>
+                    </div>
+                    <div id="menu2" class="container tab-pane fade"><br>
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,
+                            totam rem aperiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"><br>
+                <div class="table-responsive">
+                    <table class="table table-sm table-borderless">
+                        <caption>
+                            <h2>Opening Hours</h2>
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>Day</th>
+                                <th>Open</th>
+                                <th>Close</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>09:00</td>
+                                <td>22:00</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10:00</td>
+                                <td>24:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td colspan="2">Closed</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">
+                                    <b>We are closed on holidays!</b>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    &copy; 2020 Arthas Did Nothing Wrong ltd.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    our adress: farmforus024meat@azerothburger.ef
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
 </body>
+
 </html>
